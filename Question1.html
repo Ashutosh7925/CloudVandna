@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .name {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #333;
+        }
+        .designation {
+            color: #777;
+            font-size: 1em;
+        }
+        .bio {
+            margin: 10px 0;
+            color: #555;
+            font-size: 0.9em;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="Ashutosh.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="name">Ashutosh</div>
+        <div class="designation">Software Developer</div>
+        <div class="bio">Passionate about coding and design. Love to create beautiful web experiences.</div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ashu-tosh-ab77a01ba/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Ashutosh7925" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
